@@ -1,3 +1,40 @@
-node_modules
-dist
-src/test
+# Node modules
+node_modules/
+
+# test
+src/test/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
